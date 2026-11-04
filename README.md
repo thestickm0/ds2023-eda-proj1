@@ -44,35 +44,59 @@ Each deliverable has its own grading rubric, which will be provided separately c
 Submission Details
 This is a group project.
 
-RESEARCH QUESTIONS (1 High → 2 Mid-level → Action + Target Each)
-(1) How has the movie industry’s output and commercial performance changed over time?
-Mid-level 1) How have the number of releases and the average revenue per film changed by year?
+# RESEARCH QUESTIONS (1 High → 2 Mid-level → Action + Target Each)
+**(1) How has the movie industry’s output and commercial performance changed over time?**
+
+*Mid-level 1) How have the number of releases and the average revenue per film changed by year?*
+
 Action: Compute Derived Value then Correlate
+
 Target: count of films and mean revenue per release year, compared against year
-Mid level 2) Which years or decades had unusually high or low total box-office revenue?
+
+*Mid level 2) Which years or decades had unusually high or low total box-office revenue?*
+
 Action: Find Extremes or Anomalies
+
 Target: total revenue aggregated by year or decade.
 
-(2) How does a movie’s runtime correlate w/ viewership and score?
-Mid level 1) Do longer runtimes correlate with lower viewership?
+**(2) How does a movie’s runtime correlate w/ viewership and score?**
+
+*Mid level 1) Do longer runtimes correlate with lower viewership?*
+
 Action: Correlate, Co-Variance, Trend
+
 Target: Plot runtime against ‘popularity’ value and ‘revenue’, see how those change as runtime increases
-Mid level 2) Do longer runtimes correlate with higher scores?
+
+*Mid level 2) Do longer runtimes correlate with higher scores?*
+
 Action: Correlate, Characterize Distribution
+
 Target: average scores grouped by runtime
 
-(3) How do genres differ in profitability and audience reception?
-Mid level 1) How are average ratings spread within each genre, and which genres vary most? 
+**(3) How do genres differ in profitability and audience reception?**
+
+*Mid level 1) How are average ratings spread within each genre, and which genres vary most?*
+
 Action: Characterize Distribution.
+
 Target: vote average, grouped by genre
-Mid level 2) Which genres earn the most median profit, and has that ranking shifted across decades?
+
+*Mid level 2) Which genres earn the most median profit, and has that ranking shifted across decades?*
+
 Action: Compute Derived Value, Sort
+
 Target: median profit per genre, per decade
 
-4. What factors are associated with a movie’s critical success, and is critical success tied to commercial success?
-Mid level 1) Which genres, runtimes, and directors tend to get the highest audience ratings?
+**4. What factors are associated with a movie’s critical success, and is critical success tied to commercial success?**
+
+*Mid level 1) Which genres, runtimes, and directors tend to get the highest audience ratings?*
+
 Action: filter, correlate
+
 Target: vote_average against revenue_adj, grouped by decade (release_year)
-Mid level 2) Do highly rated movies also make more money, and has that relationship changed over time?
+
+*Mid level 2) Do highly rated movies also make more money, and has that relationship changed over time?*
+
 Action: Find anomalies
+
 Target: movies that fall far from the trend between vote_average and revenue_adj
