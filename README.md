@@ -1,3 +1,11 @@
+# Live dashboard
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thestickm0/ds2023-eda-proj1/HEAD?urlpath=voila%2Frender%2Fdashboard.ipynb)
+
+Dashboard link: https://mybinder.org/v2/gh/thestickm0/ds2023-eda-proj1/HEAD?urlpath=voila%2Frender%2Fdashboard.ipynb
+
+The dashboard is `dashboard.ipynb`, served as a Voilà page. Binder installs the packages listed in `requirements.txt`.
+
 This is a group project with multiple deliverables spread across the second half of the semester.
 
 You will build an interactive dashboard exploring a dataset of your own choosing, then distill your main finding into a standalone infographic.
